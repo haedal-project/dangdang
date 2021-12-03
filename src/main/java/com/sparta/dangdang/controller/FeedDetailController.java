@@ -19,6 +19,12 @@ public class FeedDetailController {
         return feedDetailService.getFeedDetail(feedIdx, "manijang2");
     }
 
+    // 게시글을 삭제합니다.
+    @DeleteMapping("/api/feed/{feedIdx}")
+    public CommonMsgResponseDto deleteFeed(@PathVariable Long feedIdx){
+        return feedDetailService.deleteFeed(feedIdx);
+    }
+
     // 좋아요 기능 입니다. (서로 반대 상태로 전환합니다.)
     @PutMapping("/api/feed/{feedIdx}/like")
     public FeedLikeResponseDto setFeedLike(@PathVariable Long feedIdx, @RequestBody FeedLikeRequestDto feedLikeRequestDto){

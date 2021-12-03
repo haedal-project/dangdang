@@ -36,10 +36,10 @@ public class Feed {
     @Column(nullable = false)
     private Long likeCount;             // 글 좋아요 개수
 
-    @OneToMany(mappedBy = "feed")
+    @OneToMany(mappedBy = "feed", cascade = CascadeType.ALL)
     private final List<FeedLikeUser> likeUsers = new ArrayList<>();
 
-    @OneToMany(mappedBy = "feed")
+    @OneToMany(mappedBy = "feed", cascade = CascadeType.ALL)
     @JsonBackReference
     private final List<Comment> comments = new ArrayList<>();
 

@@ -113,4 +113,13 @@ public class FeedDetailService {
 
         return new CommonMsgResponseDto(200L, "댓글를 삭제하는데 성공하였습니다", null);
     }
+
+    public CommonMsgResponseDto deleteFeed(Long feedIdx) {
+        Feed feed = feedRepository.findById(feedIdx).orElseThrow(
+                () -> new NullPointerException("해당 게시글이 없습니다.")
+        );
+
+        feedRepository.delete(feed);
+        return new CommonMsgResponseDto(200L, "게시글을 삭제하는데 성공하였습니다", null);
+    }
 }
