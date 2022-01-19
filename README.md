@@ -14,46 +14,73 @@
 <br>
 
 ## What is DangDang?
-As a community site, you can share photos and know where you can be with your dog.
-
-- Share : You can share photos of your daily life with your dog.
-- Find : You can find a place to go with your dog.
-- Get information : You can get information about dogs through the community.
-
-<br>
-
-## Execution
-Dang Dang was designed from the ground up for dog owners, but even non-dog owners can use our website.
-
-1. Membership registration is required to use our website.          
-our website collects minimum information as follow for registration; ID, 2 email address(Main, Sub).         
-And in order to find missing ID information,    
-sub-email address will be used for identification term, therefore please enter your email address correctly.(Mandatory)
-
-2. After registering as a member, proceed to login.
-
-3. Finally enjoy using our website !
-
-
+- 소개
+강아지들을 키우는 사람들을 위해 만든 커뮤니티 사이트로써,      
+강아지와 함께하는 일상의 사진들을 찍거나 동반 가능한 장소를 공유하고,       
+강아지에 유용한 정보들을 얻는 프로젝트를 진행하였습니다.
 
 <br>
 
-## History
-### View previous work history
-👉🏻 [our first project](https://github.com/Lluora/Team14)
+- 배경
+이전에 파이썬으로 기획을 진행했을 때 강아지를 키우는 사람이 팀원의 과반수였었고  
+그로인해 관심사가 같았습니다. 여기에 인스타그램 감성으로 키워보자 해서   
+반려동물 + 인스타그램 = 댕댕백서가 탄생하게 되었습니다.      
 
 <br>
 
-## Frontend Repository
-👉🏻 https://github.com/Lluora/DangDang-Front
+## 구성
+- 멤버 구성 :  백엔드 3명        
+              
+'댕댕백서' 프로젝트를 진행하며,
+        
+- 12시 45분에 팀 회고를 진행했습니다. (본인 발표 : 3분, Q&A : 2분, 전체 회고 1~5분)       
+- PR하고 Merge 하는 방식으로 협업을 진행했습니다.          
+- 이슈생성과 칸반보드를 통해 프로젝트와 브랜치 관리를 진행했습니다.            
+- 팀원별 생산성을 고려하고 보다 효율적인 프로젝트 관리를 하기위해 스프린트 기간을 토대로                
+   마일드 스톤을 생성해 프로젝트를 진행했습니다.          
+
 
 <br>
 
-## Member
-- 천소연(팀장) [Tistory](https://lu-delight.tistory.com/)
-- 유제협 [Velog](https://velog.io/@yu_jep)
-- 김선만 [Velog](http://velog.io/@manijang2)
+### 역할
+프로젝트를 진행할 때 저의 역할은 팀장이었습니다.        
+그래서 다른 팀들의 진행 상황과 Github를 보면서 좋은 점들을 가져와 회의시간에 추가하면 좋을 것들을 말씀을 드렸고                    
+(commit 틀, issue 등록 틀) 이에 반영된 것을 [wiki](https://github.com/haedal-uni/dangdang/wiki)에 정리하였습니다.               
+
+팀 Github에 wiki 관리와 readme 관리는 주로 제가 하게 되었고,         
+팀원들에게 이슈생성과 칸반보드를 적극 활용을 격려했습니다.         
+또, pull request를 적극 활용과 pull request할 때 코드 리뷰를 하는 방향으로 진행되도록 노력하였습니다.     
+
+[해당 내용 Tistory로 정리](https://lu-delight.tistory.com/327)
 
 <br>
 
-### * [Team blog](https://lu-delight.tistory.com/category/spartacodingclub/Project)
+### 맡은 업무 : 게시글 업로드 
+
+###### 글 작성
+<img src = https://user-images.githubusercontent.com/74857364/150071865-90ea8331-df9b-40eb-a164-12ba8de0ae53.png width="50%">
+
+###### 위치 등록
+<img src = https://user-images.githubusercontent.com/74857364/150071887-35e94e21-c122-41e2-8469-6455a5210c1c.png width="50%">
+
+<br>
+
+### 구현 과정 + 트러블 슈팅
+사용자가 게시글 업로드 페이지에서 글 작성 후 등록 버튼을 누르면, 이미지는 파일 형식으로 로컬에 이미지를 저장합니다.  
+S3로 파일 업로드 과정을 거친 후 그리고 로컬에 저장된 이미지를 지웁니다.     
+S3로 업로드 후 return 값으로 url을 반환해서 image에 저장해 브라우저에 띄워줍니다.        
+ 
+- .gitignore  
+    aws 키 때문에 gitignore에 .yml을 적용시켰는데 실행이 되지 않았습니다.        
+    git rm -r --cached . 입력 후 다시 add 하니 적용이 되었습니다.            
+    
+- S3 적용
+    Application에서 s3를 적용하는 yml 파일을 작성했는데 오류가 떴습니다.        
+    application.properties와 aws 키가 작성된 aws.yml을 추가해야했는데     
+    application.properties가 존재함에도 새로운 application.yml을 생성해 연결시키려고 해서 오류가 떴던 것이었습니다.
+    
+- 이미지 업로드
+    이미지 업로드를 시도 했는데 에러가 떴고 파일명을 변경해봤더니 정상적으로 업로드가 되었습니다. 
+    이 전에 accessKey와 secretKey를 입력할 때 띄어쓰기를 한 번 안해서 에러가 떴었고 
+    그래서 이미지 업로드를 시도할 때 오류가 떠서 로컬에만 저장되어있었는데
+    같은 파일로 시도를 하니 파일 명이 같아서 업로드가 안된 것이었습니다.
