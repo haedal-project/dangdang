@@ -66,21 +66,35 @@
 <br>
 
 ### 구현 과정 + 트러블 슈팅
-사용자가 게시글 업로드 페이지에서 글 작성 후 등록 버튼을 누르면, 이미지는 파일 형식으로 로컬에 이미지를 저장합니다.  
-S3로 파일 업로드 과정을 거친 후 그리고 로컬에 저장된 이미지를 지웁니다.     
-S3로 업로드 후 return 값으로 url을 반환해서 image에 저장해 브라우저에 띄워줍니다.        
+사용자가 게시글 업로드 페이지에서 글 작성 후 등록 버튼을 누르면, 이미지는 파일 형식으로 로컬에 이미지를 저장합니다.           
+S3로 파일 업로드 과정을 거친 후 그리고 로컬에 저장된 이미지를 지웁니다.              
+S3로 업로드 후 return 값으로 url을 반환해서 image에 저장해 브라우저에 띄워줍니다.         
  
 - .gitignore  
     aws 키 때문에 gitignore에 .yml을 적용시켰는데 실행이 되지 않았습니다.        
     git rm -r --cached . 입력 후 다시 add 하니 적용이 되었습니다.            
     
 - S3 적용
-    Application에서 s3를 적용하는 yml 파일을 작성했는데 오류가 떴습니다.        
-    application.properties와 aws 키가 작성된 aws.yml을 추가해야했는데     
-    application.properties가 존재함에도 새로운 application.yml을 생성해 연결시키려고 해서 오류가 떴던 것이었습니다.
+    Application에서 s3를 적용하는 yml 파일을 작성했는데 오류가 떴습니다.         
+    application.properties와 aws 키가 작성된 aws.yml을 추가해야했는데                 
+    application.properties가 존재함에도 새로운 application.yml을 생성해 연결시키려고 해서 오류가 떴던 것이었습니다.              
     
 - 이미지 업로드
-    이미지 업로드를 시도 했는데 에러가 떴고 파일명을 변경해봤더니 정상적으로 업로드가 되었습니다. 
-    이 전에 accessKey와 secretKey를 입력할 때 띄어쓰기를 한 번 안해서 에러가 떴었고 
-    그래서 이미지 업로드를 시도할 때 오류가 떠서 로컬에만 저장되어있었는데
-    같은 파일로 시도를 하니 파일 명이 같아서 업로드가 안된 것이었습니다.
+    이미지 업로드를 시도 했는데 에러가 떴고 파일명을 변경해봤더니 정상적으로 업로드가 되었습니다.           
+    이 전에 accessKey와 secretKey를 입력할 때 띄어쓰기를 한 번 안해서 에러가 떴었고             
+    그래서 이미지 업로드를 시도할 때 오류가 떠서 로컬에만 저장되어있었는데                  
+    같은 파일로 시도를 하니 파일 명이 같아서 업로드가 안된 것이었습니다.                      
+
+<br>
+
+#### 블로그 기록
+
+- 팀 project 기록용                                
+    [3차 프로젝트 _ S.A(Starting Assignment)](https://lu-delight.tistory.com/315)          
+    [3차 프로젝트_기획안 수정](https://lu-delight.tistory.com/319)          
+    [3차 프로젝트_KPT 회고](https://lu-delight.tistory.com/342)              
+               
+- [개인 TIL](https://lu-delight.tistory.com/category/TIL)          
+    [68일차](https://lu-delight.tistory.com/316) ~  [88일차](https://lu-delight.tistory.com/338)              
+                         
+              
