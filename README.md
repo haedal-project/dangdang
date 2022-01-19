@@ -1,4 +1,8 @@
 # DangDang(Spring)
+<p align="">
+<img src="https://img.shields.io/badge/Java-007396?style=plastic&logo=Java&logoColor=white"/>
+<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=plastic&logo=Spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/H2-3423A6?style=plastic&logo=H2&logoColor=white"/></P>
 
 - Spring Boot             
 스프링 부트는 많은 설정을 기본적으로 갖추고 있습니다.      
