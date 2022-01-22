@@ -13,21 +13,6 @@
 
 <br>
 
-## What is DangDang?
-- 소개
-강아지들을 키우는 사람들을 위해 만든 커뮤니티 사이트로써,      
-강아지와 함께하는 일상의 사진들을 찍거나 동반 가능한 장소를 공유하고,       
-강아지에 유용한 정보들을 얻는 프로젝트를 진행하였습니다.
-
-<br>
-
-- 배경
-이전에 파이썬으로 기획을 진행했을 때 강아지를 키우는 사람이 팀원의 과반수였었고  
-그로인해 관심사가 같았습니다. 여기에 인스타그램 감성으로 키워보자 해서   
-반려동물 + 인스타그램 = 댕댕백서가 탄생하게 되었습니다.      
-
-<br>
-
 ## 구성
 - 멤버 구성 :  백엔드 3명        
               
@@ -62,6 +47,36 @@
 
 ###### 위치 등록
 <img src = https://user-images.githubusercontent.com/74857364/150071887-35e94e21-c122-41e2-8469-6455a5210c1c.png width="50%">
+
+<br>
+
+### 아키텍처
+
+*aws.yml 파일에 access-key와 secret-key, region 정보를 넣었고 그것을 AmazonS3Config에서 받는다. (AmazonS3Config)*
+
+<br>
+
+***config***
+- AmazonS3Config.java      
+
+***controller***
+- FrontController.java        
+- RegistryController.java         
+
+***domain***  
+- Registry.java
+- Timestamped.java
+
+***dto***
+- RegistryDto.java
+
+***repository***
+- RegistryRepository.java
+
+***service***
+- RegistryService.java
+- S3Uploader.java
+
 
 <br>
 
