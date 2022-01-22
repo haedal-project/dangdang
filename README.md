@@ -29,11 +29,12 @@
 <br>
 </br>
           
-### 역할
-프로젝트를 진행할 때 저의 역할은 팀장이었습니다.        
-그래서 다른 팀들의 진행 상황과 Github를 보면서 좋은 점들을 가져와 회의시간에 추가하면 좋을 것들을 말씀을 드렸고                                     
-(commit 틀, issue 등록 틀) 이에 반영된 것을 [wiki](https://github.com/haedal-uni/dangdang/wiki)에 정리하였습니다.               
-
+### 역할              
+프로젝트를 진행할 때 저의 역할은 팀장이었습니다.         
+그래서 다른 팀들의 진행 상황과 Github를 보면서 좋은 점들을 가져와        
+회의시간에 추가하면 좋을 것들을 말씀을 드렸고 (commit 틀, issue 등록 틀)           
+이에 반영된 것을 [wiki](https://github.com/haedal-uni/dangdang/wiki)에 정리하였습니다.                
+        
 팀 Github에 wiki 관리와 readme 관리는 주로 제가 하게 되었고,         
 팀원들에게 이슈생성과 칸반보드를 적극 활용을 격려했습니다.         
 또, pull request를 적극 활용과 pull request할 때 코드 리뷰를 하는 방향으로 진행되도록 노력하였습니다.     
