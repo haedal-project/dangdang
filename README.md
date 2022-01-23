@@ -55,7 +55,7 @@
 <br>
 
 1. 게시글 업로드 페이지 작성 (사진, 회원가입 DB 정보 체크박스, 주소 입력, 게시글 작성)
-2. 사진 등록 - S3 이미지 업로드 후 URL 가져오기
+2. 사진 등록 - S3 이미지 업로드 후 URL 가져오기 → [코드](https://github.com/haedal-project/dangdang/blob/007b2d5693bdf9e0d9a7eb5be7a7907a6579d831/src/main/java/shop/dangdang/service/S3Uploader.java?_pjax=%23js-repo-pjax-container%2C%20div%5Bitemtype%3D%22http%3A%2F%2Fschema.org%2FSoftwareSourceCode%22%5D%20main%2C%20%5Bdata-pjax-container%5D#L20)
 3. test용 - 사진 이미지 업로드 후 전체 피드 보여주기 → [코드](https://github.com/haedal-project/dangdang/blob/2351f246a45386779e1c8f16d55bc45d2eb12974/src/main/java/shop/dangdang/controller/RegistryController.java?_pjax=%23js-repo-pjax-container%2C%20div%5Bitemtype%3D%22http%3A%2F%2Fschema.org%2FSoftwareSourceCode%22%5D%20main%2C%20%5Bdata-pjax-container%5D#L30)
 
 <br>
