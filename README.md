@@ -74,7 +74,7 @@ issue 적극 활용 x, 문제 공유x(특히 새벽 시간), 우물 안 개구�
 
 ### 아키텍처
 
-*aws.yml 파일에 access-key와 secret-key, region 정보를 넣었고 그것을 AmazonS3Config에서 받는다. (AmazonS3Config)*
+*aws.yml 파일에 access-key와 secret-key, region 정보를 넣었고 그것을 AmazonS3Config에서 받는다. ([AmazonS3Config](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/config/AmazonS3Config.java))*
 
 <br>
 
