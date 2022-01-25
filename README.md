@@ -79,7 +79,7 @@ issue 적극 활용 x, 문제 공유x(특히 새벽 시간), 우물 안 개구�
 <br>
 
 ***config***
-- AmazonS3Config.java      
+- [AmazonS3Config.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/config/AmazonS3Config.java)      
 
 ***controller***
 - [FrontController.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/controller/FrontController.java)        
@@ -90,14 +90,14 @@ issue 적극 활용 x, 문제 공유x(특히 새벽 시간), 우물 안 개구�
 - [Timestamped.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/domain/Timestamped.java)     
 
 ***dto***
-- RegistryDto.java
+- [RegistryDto.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/dto/RegistryDto.java)    
 
 ***repository***
-- RegistryRepository.java
+- [RegistryRepository.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/repository/RegistryRepository.java)
 
 ***service***
-- RegistryService.java
-- S3Uploader.java
+- [RegistryService.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/service/RegistryService.java)   
+- [S3Uploader.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/service/S3Uploader.java)
 
 
 <br>
