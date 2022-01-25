@@ -82,12 +82,12 @@ issue 적극 활용 x, 문제 공유x(특히 새벽 시간), 우물 안 개구�
 - AmazonS3Config.java      
 
 ***controller***
-- FrontController.java        
-- RegistryController.java         
+- [FrontController.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/controller/FrontController.java)        
+- [RegistryController.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/controller/RegistryController.java)         
 
 ***domain***  
-- Registry.java
-- Timestamped.java
+- [Registry.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/domain/Registry.java)
+- [Timestamped.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/domain/Timestamped.java)     
 
 ***dto***
 - RegistryDto.java
