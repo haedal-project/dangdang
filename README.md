@@ -4,6 +4,14 @@
 <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=plastic&logo=Spring&logoColor=white"/>
 <img src="https://img.shields.io/badge/H2-3423A6?style=plastic&logo=H2&logoColor=white"/></P>
 
+강아지들을 키우는 사람들을 위해 만든 커뮤니티 사이트로써,
+
+강아지와 함께하는 일상의 사진들을 찍거나 동반 가능한 장소를 공유하고,
+
+강아지에 유용한 정보들을 얻는 프로젝트를 진행하였습니다.
+
+<br>
+
 - ***Spring Boot***             
 스프링 부트는 많은 설정을 기본적으로 갖추고 있습니다.      
 스프링 부트에는 Apache Tomcat이 내장되어 있습니다.   
