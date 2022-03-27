@@ -120,8 +120,18 @@ S3로 업로드 후 return 값으로 url을 반환해서 image에 저장해 브�
                
 - [개인 TIL](https://lu-delight.tistory.com/category/TIL)          
     [68일차](https://lu-delight.tistory.com/316) ~  [88일차](https://lu-delight.tistory.com/338)              
- 
- 
+  
+[https://lu-delight.tistory.com/329](https://lu-delight.tistory.com/329)
+
+[https://lu-delight.tistory.com/330](https://lu-delight.tistory.com/330)
+
+[https://lu-delight.tistory.com/333](https://lu-delight.tistory.com/333)
+
+[https://lu-delight.tistory.com/334](https://lu-delight.tistory.com/334)
+
+[https://lu-delight.tistory.com/335](https://lu-delight.tistory.com/335)
+
+
 <br>
 </br> 
 
