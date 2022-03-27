@@ -20,22 +20,7 @@
 스프링 데이터 JPA는 JPA를 더 쉽고 편하게 사용할 수 있게 해줍니다.
 
 <br>
-</br>
-          
-### 역할              
-프로젝트를 진행할 때 저의 역할은 팀장이었습니다.         
-그래서 회의 시간에 해야할 부분들을 미리 정리하거나         
-프로젝트에 추가하면 좋을 기능들 혹은 이슈에 대해서 말씀을 드렸고 (commit 틀, issue 등록 틀)           
-이에 반영된 것을 [wiki](https://github.com/haedal-uni/dangdang/wiki)에 정리하였습니다.                
-        
-팀 Github에 wiki 관리와 readme 관리는 주로 제가 하게 되었고,         
-팀원들에게 이슈생성과 칸반보드를 적극 활용을 격려했습니다.         
-또, pull request를 적극 활용과 pull request할 때 코드 리뷰를 하는 방향으로 진행되도록 노력하였습니다.     
-
-[해당 내용 Tistory로 정리](https://lu-delight.tistory.com/327)                        
-                
-<br>
-</br>      
+</br>   
               
 ### 맡은 업무 : 게시글 업로드 
 
@@ -110,7 +95,23 @@ S3로 업로드 후 return 값으로 url을 반환해서 image에 저장해 브�
 <br>
 </br>
 
-#### 블로그 기록
+          
+### 역할              
+프로젝트를 진행할 때 저의 역할은 팀장이었습니다.         
+그래서 회의 시간에 해야할 부분들을 미리 정리하거나         
+프로젝트에 추가하면 좋을 기능들 혹은 이슈에 대해서 말씀을 드렸고 (commit 틀, issue 등록 틀)           
+이에 반영된 것을 [wiki](https://github.com/haedal-uni/dangdang/wiki)에 정리하였습니다.                
+        
+팀 Github에 wiki 관리와 readme 관리는 주로 제가 하게 되었고,         
+팀원들에게 이슈생성과 칸반보드를 적극 활용을 격려했습니다.         
+또, pull request를 적극 활용과 pull request할 때 코드 리뷰를 하는 방향으로 진행되도록 노력하였습니다.     
+
+[해당 내용 Tistory로 정리](https://lu-delight.tistory.com/327)                        
+                
+<br>
+</br>   
+
+### 블로그 기록
 
 - 팀 project 기록용                                
     [3차 프로젝트 _ S.A(Starting Assignment)](https://lu-delight.tistory.com/315)          
@@ -124,7 +125,7 @@ S3로 업로드 후 return 값으로 url을 반환해서 image에 저장해 브�
 <br>
 </br> 
 
-#### 구성
+### 구성
 - 멤버 구성 :  백엔드 3명        
               
 '댕댕백서' 프로젝트를 진행하며,    
