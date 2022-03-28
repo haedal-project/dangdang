@@ -23,6 +23,7 @@
 </br>   
               
 ### 맡은 업무 : 게시글 업로드 
+[3차 프로젝트 gif로 보기](https://lu-delight.tistory.com/489)
 
 ###### 글 작성
 <img src = https://user-images.githubusercontent.com/74857364/150071865-90ea8331-df9b-40eb-a164-12ba8de0ae53.png width="50%">
