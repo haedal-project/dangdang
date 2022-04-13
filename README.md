@@ -42,6 +42,11 @@
 
 ### 아키텍처
 
+*S3 라이브러리 추가             
+`implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-aws', version: '2.0.1.RELEASE'`
+
+<br><br>
+
 *aws.yml 파일에 access-key와 secret-key, region 정보를 넣었고 그것을 AmazonS3Config에서 받는다. ([AmazonS3Config](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/config/AmazonS3Config.java))*
 
 <br>
