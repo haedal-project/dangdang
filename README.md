@@ -71,6 +71,9 @@
 ***service***
 - [RegistryService.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/service/RegistryService.java)   
 - [S3Uploader.java](https://github.com/haedal-project/dangdang/blob/main/src/main/java/shop/dangdang/service/S3Uploader.java)
+                
+***resources***
+- [aws.yml](https://github.com/haedal-project/dangdang/blob/main/src/main/resources/aws.yml)
 
 
 <br>
